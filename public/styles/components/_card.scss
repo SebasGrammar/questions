@@ -1,0 +1,33 @@
+@import "../helpers/variables";
+
+.card {
+    width: 80%;
+    border-radius: $radius;
+    background: $main-color;
+    margin: 10px 0;
+    padding: 5px;
+    // box-shadow: $shadow;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+    
+}
+
+.picture {
+    display: inline-block;
+    
+    border-radius: 100%;
+    background: $main-color;
+    position: absolute;
+    left: 5%;
+}
+
+.theme-picture {
+    width: 40px;
+}

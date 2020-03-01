@@ -1,0 +1,8 @@
+@function test($value) {
+    @return $value * 5 + px
+};
+
+@function addBorder($value, $color) {
+    // $value + px solid $color ... how do you go about making this work?
+    @return $value solid $color
+}

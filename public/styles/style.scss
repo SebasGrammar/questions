@@ -1,0 +1,30 @@
+// @use "layout/header"; // This will use whatever code is cointained in the header file.
+//@import "layout/header"; // In case there were code I'd like to use in this file, then I would have to import it.
+// To use variables, functions... It is a module!
+
+/***********************/
+@use "layout/header";
+@use "layout/cards";
+
+
+@use "components/card";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import "helpers/functions";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+
+}
+
+body {
+    background: #FFF;
+    //border: solid test(5) red;
+    font-family: 'Montserrat', ;
+}
